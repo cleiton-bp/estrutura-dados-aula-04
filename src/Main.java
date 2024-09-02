@@ -27,7 +27,7 @@ public class Main {
         Cliente clienteBuscado = vetorClientes.buscarPorNome("Cliente Alterado");
         System.out.println("Cliente buscado:");
         System.out.println(clienteBuscado);
-        
+
         String dominio = "@exemplo.com";
         System.out.println("Clientes com domínio " + dominio + ":");
         System.out.println(vetorClientes.filtrarPorDominioEmail(dominio));
